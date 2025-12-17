@@ -1,0 +1,134 @@
+<!Doctype html>
+<html>
+<head><title>AgroAssist-A portal For Supporting Farmers</title>
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        background-image: url("background2.jpeg");
+        background-size:cover;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    form{
+        width:500px;
+        border:2px solid #000;
+        padding:15px;
+        Font-family:sans-serif;
+    }
+    input,textarea{
+        width:500px;
+    }
+    button{
+        margin-top: 10px;
+    }
+    .box{
+        background-color: lightgreen;
+        padding-top: 30px;
+        padding-bottom: 10px;
+
+    }
+    .navbar{
+    background:#2e7d32;
+    padding:15px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.logo{
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    padding:8px 12px;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+
+.nav-links a:hover{
+    background:#1b5e20;
+}
+.circle-btn{
+        width:50px;
+        height:50px;
+        border-radius:50%;
+        background:#2e7d32;
+        color:white;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:12px;
+        font-weight:bold;
+        transition:0.3s;
+        text-align:center;
+    }
+
+    .circle-btn:hover{
+        background:#1b5e20;
+        transform:scale(1.1);
+    }
+    .container{
+        display:flex;
+        gap:20px;
+    }
+</style>
+</head>
+<body>
+<div class=box><h1 align="center"><u>AgroAssist</u></h1></div>
+<div class="navbar">
+    <div class="logo">Farmer Portal</div>
+    <div class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="home.html">About</a>
+        <a href="home.html">Schemes</a>
+        <a href="home.html">Resgister</a>
+        <a href="home.html">Contact</a>
+    </div>
+</div>
+<h3>Farmer Support Form</h3>
+<form>
+    <label>Farmer Name:</label>
+    <input type="text" placeholder="Enter your Name"><br><br>
+
+    <label>Problem:</label><br>
+    <textarea placeholder="Describe your Problem"></textarea><br><br>
+    <button type="submit">SUBMIT</button>
+
+</form>
+<br>
+<br>
+<h3>Select Category</h3>
+<br>
+<div class="container">
+    <a href="soil.html" class="circle-btn">Soil</a>
+    <a href="seeds.html" class="circle-btn">Seeds</a>
+    <a href="plant.html" class="circle-btn">Plant</a>
+    <a href="weather.html" class="circle-btn">Weather</a>
+    <a href="water.html" class="circle-btn">Water</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
