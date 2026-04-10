@@ -1,7 +1,23 @@
-<!Doctype html>
-<head><title>home</title>
-</head>
-<body>
-<h1 align='center'><u>AgroAssist</u></h1>
-</body>
-</html>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCPOdfr0NjyHzlFMb_QU5Ilc6Y8Jm_AGmk",
+      authDomain: "agroassist-8c24f.firebaseapp.com",
+      projectId: "agroassist-8c24f",
+      storageBucket: "agroassist-8c24f.firebasestorage.app",
+      messagingSenderId: "634586485054",
+      appId: "1:634586485054:web:65ea0b3f65b4fb23125c6f",
+      measurementId: "G-SBY2DTVBPY"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
