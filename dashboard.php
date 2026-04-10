@@ -15,7 +15,7 @@ exit;
 �
 <h1>Welcome, <?php echo htmlspecialchars($_SESSION['user']); ?> 
 </h1>
-<p>You are logged in successfully.</p> 
+<p>You are logged in successfullyy.</p> 
 <a href="logout.php">Logout</a> 
 </body> 
 </html>
